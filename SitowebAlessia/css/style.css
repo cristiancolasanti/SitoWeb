@@ -1,10 +1,9 @@
 .logo{
     width: 50px;
 }
-.slideshow{
-    width: 900px;
-    text-align: center;
+section{
+    margin-top: 50px;
 }
-.carousel slide{
-    width: 800px;
+.col-md-4 img{
+    width: 540px;
 }
