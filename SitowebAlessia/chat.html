@@ -25,7 +25,7 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                        <a class="nav-link " aria-current="page" href="home.html">Home</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="amministrazione.html">Carrello</a>
@@ -37,9 +37,9 @@
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           Contattaci
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <ul class="dropdown-menu active" aria-labelledby="navbarDropdown">
                           <li><a class="dropdown-item" href="form.html">Email</a></li>
-                          <li><a class="dropdown-item" href="chat.html">Live Chat</a></li>
+                          <li><a class="dropdown-item active" href="chat.html">Live Chat</a></li>
                         </ul>
                       </li>
                     </ul>
@@ -53,40 +53,31 @@
         </header>
 
 <!--MESSAGGI-->
-<form>
-  <div role="alert" aria-live="assertive" aria-atomic="true" class="toast" data-bs-autohide="false">
+<div class="toast-container">
+  <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    
     <div class="toast-header">
       <img src="..." class="rounded me-2" alt="...">
       <strong class="me-auto">Bootstrap</strong>
-      <small>11 mins ago</small>
+      <small class="text-muted">just now</small>
       <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
     </div>
     <div class="toast-body">
-      Hello, world! This is a toast message.
+      See? Just like this.
     </div>
   </div>
 
-  <!--NOSTRI--->
-  <form>
-    <div class="mb-3">
-      <label for="selectToastPlacement">Toast placement</label>
-  <option value="bottom-0 end-0">Bottom right</option>
-</select>
-</div>
-</form>
-<div aria-live="polite" aria-atomic="true" class="bg-dark position-relative bd-example-toasts">
-<div class="toast-container position-absolute p-3" id="toastPlacement">
-<div class="toast">
-  <div class="toast-header">
-    <img src="..." class="rounded me-2" alt="...">
-    <strong class="me-auto">Bootstrap</strong>
-    <small>11 mins ago</small>
+  <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <img src="..." class="rounded me-2" alt="...">
+      <strong class="me-auto">Bootstrap</strong>
+      <small class="text-muted">2 seconds ago</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      Heads up, toasts will stack automatically
+    </div>
   </div>
-  <div class="toast-body">
-    Hello, world! This is a toast message.
-  </div>
-</div>
-</div>
 </div>
 
         
@@ -95,7 +86,20 @@
 
 
 
-        <footer class="container-fluid bg-dark mt-5">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="container-fluid bg-dark mt-5">
             <p class="text-center text-light">Copyright 2021 - Sito web creato da Alessia Patrizi - P.Iva: 0123456789</p>
         </footer>
     
